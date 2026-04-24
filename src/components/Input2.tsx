@@ -8,7 +8,11 @@ export const Input = () => {
   const { discord_username, setDiscordUsername } = useUser();
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setDiscordUsername(e.target.value);
-    const user = userFavoriteGamesLoader[e.target.value.toLowerCase()];
+
+    const user =
+      userFavoriteGamesLoader[
+        e.target.value.toLowerCase() as keyof typeof userFavoriteGamesLoader
+      ];
     if (user) {
       setTheme(user.favorite_game as ThemeType);
     }

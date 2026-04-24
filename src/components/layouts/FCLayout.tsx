@@ -1,4 +1,3 @@
-import React from "react";
 import fcBackground from "../../assets/fc-bbq-grill.png";
 import { Coins, Gem, Shield, Trophy } from "lucide-react";
 import { useNavigate } from "react-router-dom";

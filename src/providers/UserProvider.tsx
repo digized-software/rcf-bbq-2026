@@ -15,8 +15,23 @@ const UserContext = createContext<User>({
 export const UserProvider = ({ children }: { children: React.ReactNode }) => {
   const [discord_username, setDiscordUsername] = useState("");
   const handleRSVP = () => {
-    //TODO: Implement RSVP logic
-    console.log("RSVP", discord_username);
+    if (!discord_username) {
+      return;
+    }
+    fetch(import.meta.env.VITE_GAS_URL, {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "text/plain; charset=utf-8",
+      },
+      body: JSON.stringify({ name: discord_username }),
+    })
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.error(err);
+      });
   };
   return (
     <UserContext.Provider

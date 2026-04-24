@@ -1,6 +1,8 @@
 import { CalendarDays, Clock3, MapPin, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { LayoutProps } from "../../types/Layout";
+import { useUser } from "../../providers/UserProvider";
+import { useTheme } from "../../providers/ThemeProvider";
 
 export const BasicLayout = ({
   location,
@@ -8,6 +10,8 @@ export const BasicLayout = ({
   date,
   rsvp_name,
 }: LayoutProps) => {
+  const { handleRSVP } = useUser();
+  const { setTheme } = useTheme();
   return (
     <main className="relative min-h-screen overflow-hidden bg-linear-to-br from-amber-50 via-orange-50 to-rose-100 px-6 py-10 text-zinc-900 sm:px-10">
       <div className="pointer-events-none absolute inset-0">
@@ -67,7 +71,39 @@ export const BasicLayout = ({
           <p className="text-sm font-medium text-zinc-300">RSVP with</p>
           <p className="text-lg font-bold">{rsvp_name}</p>
         </div>
+        <button
+          onClick={handleRSVP}
+          className="w-full rounded-full cursor-pointer bg-blue-500 px-4 py-2 text-sm font-medium text-zinc-100 hover:bg-blue-800"
+        >
+          RSVP
+        </button>
       </section>
+      <footer className="absolute bottom-0 left-0 right-0 flex items-center justify-center">
+        <button
+          onClick={() => setTheme("overwatch")}
+          className="w-full rounded-full cursor-pointer  px-4 py-2 text-sm font-medium text-zinc-100 hover:bg-gray-800/20"
+        >
+          Overwatch
+        </button>
+        <button
+          onClick={() => setTheme("deadlock")}
+          className="w-full rounded-full cursor-pointer  px-4 py-2 text-sm font-medium text-zinc-100 hover:bg-gray-800/20"
+        >
+          Deadlock
+        </button>
+        <button
+          onClick={() => setTheme("rocket-league")}
+          className="w-full rounded-full cursor-pointer  px-4 py-2 text-sm font-medium text-zinc-100 hover:bg-gray-800/20"
+        >
+          Rocket League
+        </button>
+        <button
+          onClick={() => setTheme("fc-2025")}
+          className="w-full rounded-full cursor-pointer  px-4 py-2 text-sm font-medium text-zinc-100 hover:bg-gray-800/20"
+        >
+          FC 2025
+        </button>
+      </footer>
     </main>
   );
 };

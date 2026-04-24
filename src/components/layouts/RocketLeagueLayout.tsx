@@ -4,7 +4,15 @@ import { useTheme } from "../../providers/ThemeProvider";
 import rcfLogo from "../../assets/rcf-logo.png";
 import { useUser } from "../../providers/UserProvider";
 
-function MenuButton({ label, selected = false, onClick }) {
+function MenuButton({
+  label,
+  selected = false,
+  onClick,
+}: {
+  label: string;
+  selected?: boolean;
+  onClick?: () => void;
+}) {
   return (
     <button
       onClick={onClick}
