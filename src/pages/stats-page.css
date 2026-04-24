@@ -56,3 +56,22 @@
   height: auto;
   display: block;
 }
+
+@media (max-width: 768px) {
+  .stats-page {
+    padding: 0.75rem 0.75rem 1.5rem;
+  }
+
+  .stats-header h1 {
+    font-size: 1.2rem;
+  }
+
+  .stats-panel {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .stats-panel h2 {
+    font-size: 0.9rem;
+  }
+}

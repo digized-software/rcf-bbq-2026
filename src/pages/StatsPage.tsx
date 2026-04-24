@@ -1,4 +1,4 @@
-import type { ComponentType, CSSProperties } from "react";
+import { useEffect, useState, type ComponentType, type CSSProperties } from "react";
 import type { Data, Layout } from "plotly.js";
 import PlotImport from "react-plotly.js";
 import { Link } from "react-router-dom";
@@ -39,19 +39,61 @@ const plotConfig = {
   displaylogo: false,
 } as const;
 
-const Chart = ({ figure, height }: { figure: FigureJson; height: number }) => (
-  <Plot
-    data={figure.data}
-    layout={{
-      ...responsiveLayout(figure.layout),
-      height,
-      margin: figure.layout.margin ?? { t: 48, r: 20, b: 48, l: 56 },
-    }}
-    config={plotConfig}
-    style={{ width: "100%" }}
-    useResizeHandler
-  />
-);
+const MOBILE_BREAKPOINT_PX = 768;
+
+const useIsMobile = () => {
+  const getIsMobile = () =>
+    typeof window !== "undefined"
+      ? window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT_PX}px)`).matches
+      : false;
+
+  const [isMobile, setIsMobile] = useState(getIsMobile);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia(
+      `(max-width: ${MOBILE_BREAKPOINT_PX}px)`,
+    );
+
+    const handleMediaQueryChange = (event: MediaQueryListEvent) => {
+      setIsMobile(event.matches);
+    };
+
+    setIsMobile(mediaQuery.matches);
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
+  return isMobile;
+};
+
+const Chart = ({
+  figure,
+  height,
+  mobileHeight,
+}: {
+  figure: FigureJson;
+  height: number;
+  mobileHeight: number;
+}) => {
+  const isMobile = useIsMobile();
+
+  return (
+    <Plot
+      data={figure.data}
+      layout={{
+        ...responsiveLayout(figure.layout),
+        height: isMobile ? mobileHeight : height,
+        margin: figure.layout.margin ?? { t: 48, r: 20, b: 48, l: 56 },
+      }}
+      config={plotConfig}
+      style={{ width: "100%" }}
+      useResizeHandler
+    />
+  );
+};
 
 export default function StatsPage() {
   return (
@@ -75,27 +117,27 @@ export default function StatsPage() {
 
       <section className="stats-panel">
         <h2>Daily message counts</h2>
-        <Chart figure={asFigure(dailyMessageCounts)} height={420} />
+        <Chart figure={asFigure(dailyMessageCounts)} height={420} mobileHeight={320} />
       </section>
 
       <section className="stats-panel">
         <h2>Most active users</h2>
-        <Chart figure={asFigure(authorMessageCounts)} height={720} />
+        <Chart figure={asFigure(authorMessageCounts)} height={720} mobileHeight={520} />
       </section>
 
       <section className="stats-panel">
         <h2>Overall game mentions</h2>
-        <Chart figure={asFigure(overallGameMentions)} height={440} />
+        <Chart figure={asFigure(overallGameMentions)} height={440} mobileHeight={340} />
       </section>
 
       <section className="stats-panel">
         <h2>Top games mentioned by user</h2>
-        <Chart figure={asFigure(userGameMentions)} height={720} />
+        <Chart figure={asFigure(userGameMentions)} height={720} mobileHeight={520} />
       </section>
 
       <section className="stats-panel">
         <h2>User game preference map (PCA)</h2>
-        <Chart figure={asFigure(userGamePca)} height={640} />
+        <Chart figure={asFigure(userGamePca)} height={640} mobileHeight={440} />
       </section>
     </div>
   );
