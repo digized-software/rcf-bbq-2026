@@ -71,3 +71,15 @@ export default defineConfig([
   },
 ])
 ```
+
+## GitHub Pages deployment
+
+This repository includes a workflow at `.github/workflows/deploy-pages.yml` that deploys the Vite build output to GitHub Pages whenever `main` is updated (and via manual dispatch).
+
+### One-time repository settings
+
+1. In GitHub, go to **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Ensure your default branch is `main` so pushes trigger deployment.
+
+The Vite config uses `/rcf-bbq-2026/` as the base path in GitHub Actions builds to match the repository name.
