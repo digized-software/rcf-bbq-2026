@@ -4,7 +4,7 @@ import { PageLayout } from "../components/layouts/PageLayout";
 const bbq_info = {
   location: "245 Etheridge Ave, Milton, ON",
   time: "5:00 PM",
-  date: "2026-06-05",
+  date: "Saturday, June 6th, 2026",
 };
 
 const HomePage = () => {
