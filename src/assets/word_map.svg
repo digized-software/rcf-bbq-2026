@@ -1,0 +1,306 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800">
+<style>@font-face{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAmsAAsAAAAAC+wAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABeAAAAFIAAABge/tWPWNtYXAAAAIEAAAALAAAADQADADNZ2FzcAAACaAAAAAMAAAADAAEAAdnbHlmAAACaAAABlMAAAgcg5ZofGhlYWQAAAEIAAAANgAAADYLxNG/aGhlYQAAAUAAAAAgAAAAJAw9AuhobXR4AAABzAAAADgAAAA4C5gIoGxvY2EAAAIwAAAAOAAAADgcIR3mbWF4cAAAAWAAAAAYAAAAIAAfADhuYW1lAAAIvAAAAMsAAAFoHBo1AHBvc3QAAAmIAAAAFgAAACD/aQBnAAEAAAABAACIOCArXw889QALCAAAAAAAwcfpVAAAAADmEJ86//z+FATRBh8AAAAJAAIAAAAAAAB4nGNgZGBgz/0ny8DAcvb/n/9/WC4yAEVQACMArNsHL3icY2BkYGCQZjBnYGYAAUYGNAAACM0AWHicY2BmOcs4gYGVgYN1FqsxAwOjHIRmvsCQxviJgYGJm42TmYOFiYmFASjJgAQMHYOdGRwYEhmq2OT/iTC0sOcyPoapYfFi3QakFBgYAE3ZDAAAAATNAMEAhwCeAKwAiQCFAJwAZgCgAMUAhwDXALwAXACgAHMAngCJAQgAywCLAKAAUv/8AGAAUgC2eJxjYGBgYmBgYAZiESDJCKZZGBSANAsQgvhV//8DycT///8vAPMZAFbgBtYAAAAAADQAZACKALsA5wEMAVoBegGdAcQB5QH8AiwCSgJzAqQC1QLzAyIDRQNkA38DrwPOA/cEDnicVVULTBRXFH13ZpzdIpEddma3BhsYpguhSCw7LFtt8VM1sSumLUGkxpqtIn5otILW4MYgNSulW2MRRIrV8gttosVq6KS09EPWb4kSUqnGJqWWamND1Vib+tl59r5dVJrMb5O95577OecRjtQ8GBU4YTlxEpUQNV0TRS01zWNzeT05WqolPVd3OxSJt4iiIuvuXA9f5bIuatve3gO0/3b9F7OOfz3S3912vON0/ZGmNxYe3g/5Nsv80YJaf9f3po2bbLGWrT/W3kA4chDzzBNlkkimEOLSLJqkS7JFR/xEycZpqbzs0FMkm5oqQmG8K2hYrWUXzly5enqgItQENnp9/85QSJTpu6/WddAhepveoj9yz4/0QScc7CUEyGHEd2EddvxhSdMYlNuriFoKkWxEdQuumY1v012w9kDHzjB9QH+HVLAcE7SD0+lKum5mSx5oYIPJkEaQay1iTYtyfYpxxY5wki1Rdzv1NA/S1nhPzliGXL7aunGQ8Ty3KT7eqNdCTfQmJDYF6z+BTIiHSZDVUq1C991RuJcx0keX0hVHWYYgZliAbCXiQL5qYoxrKuOKDVFcqk1NERZE7lnhlfCRzpP/0EuQMHLejFAuj96kf3Ecrc1vWYgpRIgDL709rEE268JHhAhLxWSiMFRJk1SPy5ODPXZiS1JFRVEFmQYMGoa87sHqQMaa1YFiCPJ9kVl833rV39el7Z5SUrGGEJ6UUlkoRYZPk6kkF9EUi0ORkWI6WwS2FDiqNE+ON3qnxZLwbrY0igzsoaZgl4TS43OGvvUml7R+3fWl2X9p5KY/+Frp0Imi2c3Dly/D/N6rkAChEsG3MWnx9tbvxOcWFTbvpjWtdednTCt76xXXoVXGCdnsvXrj1giNP9k1XJzHqmzBKrNwPhJurGTDSUhsm9gy4Se/5To9axjWuNXXIMiFQaDl5incHPcHn9INps66fwLjdXESseKECbijdXly7C6PKk1QsGVc5bpZmWUJ9G8Igz+yB4rFSeUzpleUm4eVQGS+HAjIDKWGynwRolhQO1EUBgIeB5OJxLAYLPdHWdk6Grdz/+YddBm39LdzHYhVUVF+J6M5vXyVMF0J3J/THcaaLiAnXHAyCbG8oAPuoyVaFg9VNRD6hSZycUO0qLq728ZlNEEtdZl1cKeALhVlM5cOIwLKQMhEhCcQ4XEpMr0draIOiicEla33AlH6QJbhvytwvimshznR7cB0trG37mTKjD6Y/Ac9M5e83LqtcEFbVVLc3J3tbjF/9/ZNXHhPeWfYbGNN/viGeUrwNXxqGD0XscljM0J82/gZOcePqD7pfyNi0dEBcaQC1VGMsROZmieMqYI905no8OZWXKTXIOHqJXDQ679CLj1N+2VsmwAWeJb+gPr+l57bBx3QQv10GXMf3OZ5iDimaMfjGsfcRxlvPyjkJOv68+PtpykYqlZpppiLJB/aT0lGzH8+j3oGZpj2MAPoXrQJKcf72Dvs4zyj0ppUb8THx4yDZYh5Bm803P0BhjKqH3mH+dEj0wCwYke1WEfBkjZuUFiFoGUHVrUfNRoc1vyuqreF7M6sniPm54LvzJZSppj+MZdPJsSLG8qkmf5QtQwLy3c6YgLv7zsK9hVHr1UOnzh56AWjdnSV8WPoz5/uZHcWtU0vnL2kbuW7+317FwTzXpqzaO+bjYcQPcTQJ2xg03Ixy5WY79h1SVVQBLqbj7yzlTbSf2DiorVgUN/3rze+lwLF3Lbl2ZBMf641d4SjqkaULMEXVTWeQwxGl2xRNaEKmpPi1l6hlcZoa4OB5lrHnTXzaKTnPDfjvsGiC7A7lRg9EaNBtzuwL3Y7yugW9ffeXJwgWpbf+Ib6BZ+56Y/lU2Ey9z6GwYMIRg1i1GSM4nmNXbFYr/3Rm+ezdswT59R8M9y2ItUpJruCfVWZT4rJT5UevMwVgo8eY402L3810PMZ96L5bbj91j4uOcbKj/jrYqyAiTqqa7wo3TKAJ5A2QDfDgXO4sWcGOJ1z0lJoNq+ZZ6Gb5rOacKdYTXhGYCljdICd0OlRm/F6C3pBLLCIzrlYnGvusQNFBTN9/rJnZiCf8rOL3+rGMtO7jkh18QUljYwPkhJkRESPUFUPqB5VATwTIm1cg7mLzzQruQ+38fNq90QGyX9/UYY4AHicfY5BDsFQFEUPiphYgIH8BSCKxFhIjExIDMyqpJpIK8WABViBTdiJBVmA2+9LjKS5zX3v3XfeB6qsKFHwasBO+vgCTVUfX6TOzfkSA+7Oez+ZMi2ezldo8GJCTCSdpCtbNhgpUB3IhaQcuJDZ1E5dw0Pq0dU3FM0wVSbVdK9tw1g+007+Dyw1JaGjO5lcbPkLTRKOcjM7TZlrN+IsRqDcSLNQnUTprWpDW/pPWNrk0d0z+LqZv9GwFjcWeWO7Pv0f0pfjKG8rUjU3AHicY2BmAIP/aQxpQIqRAQ0AACn+AdAAAAAAAAIABQAC//8AAw==")format("woff");}</style>
+<style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
+<rect width="100%" height="100%" style="fill:black"></rect>
+<style>@keyframes wm-in{from{opacity:0}to{opacity:1}}text{opacity:0;animation:wm-in .42s cubic-bezier(.22,1,.36,1) forwards;animation-delay:var(--wm-d,0ms)}</style>
+<text transform="translate(8,327)" font-size="389" style="fill:rgb(239, 229, 28);--wm-d:4186ms">dont</text>
+<text transform="translate(8,578)" font-size="345" style="fill:rgb(55, 91, 141);--wm-d:4172ms">game</text>
+<text transform="translate(255,746)" font-size="217" style="fill:rgb(173, 220, 48);--wm-d:4158ms">good</text>
+<text transform="translate(249,112)" font-size="146" style="fill:rgb(44, 113, 142);--wm-d:4144ms">think</text>
+<text transform="translate(947,763) rotate(-90)" font-size="144" style="fill:rgb(42, 176, 127);--wm-d:4130ms">time</text>
+<text transform="translate(2,745)" font-size="110" style="fill:rgb(33, 144, 141);--wm-d:4116ms">need</text>
+<text transform="translate(986,399) rotate(-90)" font-size="108" style="fill:rgb(251, 231, 35);--wm-d:4102ms">know</text>
+<text transform="translate(520,387)" font-size="79" style="fill:rgb(53, 94, 141);--wm-d:4088ms">thats</text>
+<text transform="translate(146,388)" font-size="77" style="fill:rgb(40, 174, 128);--wm-d:4074ms">will</text>
+<text transform="translate(703,43)" font-size="71" style="fill:rgb(72, 38, 119);--wm-d:4060ms">gonna</text>
+<text transform="translate(1,102)" font-size="70" style="fill:rgb(134, 213, 73);--wm-d:4046ms">cant</text>
+<text transform="translate(337,375)" font-size="67" style="fill:rgb(30, 156, 137);--wm-d:4032ms">even</text>
+<text transform="translate(29,782)" font-size="66" style="fill:rgb(68, 1, 84);--wm-d:4018ms">youre</text>
+<text transform="translate(831,112)" font-size="66" style="fill:rgb(31, 153, 138);--wm-d:3990ms">back</text>
+<text transform="translate(611,324) rotate(-90)" font-size="66" style="fill:rgb(184, 222, 41);--wm-d:4004ms">play</text>
+<text transform="translate(621,797)" font-size="65" style="fill:rgb(103, 204, 92);--wm-d:3976ms">make</text>
+<text transform="translate(400,786)" font-size="62" style="fill:rgb(33, 142, 141);--wm-d:3948ms">never</text>
+<text transform="translate(715,536)" font-size="62" style="fill:rgb(72, 23, 105);--wm-d:3962ms">want</text>
+<text transform="translate(462,624)" font-size="61" style="fill:rgb(71, 16, 99);--wm-d:3934ms">look</text>
+<text transform="translate(995,783) rotate(-90)" font-size="60" style="fill:rgb(54, 92, 141);--wm-d:3906ms">underwatch</text>
+<text transform="translate(732,298) rotate(-90)" font-size="60" style="fill:rgb(66, 65, 134);--wm-d:3920ms">yeah</text>
+<text transform="translate(821,788) rotate(-90)" font-size="60" style="fill:rgb(31, 162, 135);--wm-d:3892ms">didnt</text>
+<text transform="translate(257,229) rotate(-90)" font-size="59" style="fill:rgb(101, 203, 94);--wm-d:3878ms">still</text>
+<text transform="translate(323,625)" font-size="59" style="fill:rgb(173, 220, 48);--wm-d:3864ms">said</text>
+<text transform="translate(204,463)" font-size="59" style="fill:rgb(70, 50, 126);--wm-d:3836ms">come</text>
+<text transform="translate(32,36)" font-size="59" style="fill:rgb(30, 156, 137);--wm-d:3850ms">guys</text>
+<text transform="translate(756,384)" font-size="58" style="fill:rgb(32, 164, 134);--wm-d:3822ms">shit</text>
+<text transform="translate(648,630) rotate(-90)" font-size="58" style="fill:rgb(71, 19, 101);--wm-d:3808ms">osama</text>
+<text transform="translate(3,373)" font-size="47" style="fill:rgb(76, 194, 108);--wm-d:3794ms">right</text>
+<text transform="translate(850,414)" font-size="46" style="fill:rgb(69, 53, 129);--wm-d:3780ms">year</text>
+<text transform="translate(481,336) rotate(-90)" font-size="46" style="fill:rgb(44, 177, 126);--wm-d:3752ms">everyone</text>
+<text transform="translate(844,796)" font-size="46" style="fill:rgb(71, 44, 122);--wm-d:3766ms">take</text>
+<text transform="translate(874,281) rotate(-90)" font-size="45" style="fill:rgb(101, 203, 94);--wm-d:3738ms">thing</text>
+<text transform="translate(427,538) rotate(-90)" font-size="45" style="fill:rgb(34, 140, 141);--wm-d:3710ms">better</text>
+<text transform="translate(366,293) rotate(-90)" font-size="45" style="fill:rgb(33, 165, 133);--wm-d:3724ms">going</text>
+<text transform="translate(198,609)" font-size="35" style="fill:rgb(70, 8, 92);--wm-d:3696ms">people</text>
+<text transform="translate(700,335)" font-size="34" style="fill:rgb(31, 161, 135);--wm-d:3682ms">team</text>
+<text transform="translate(803,606)" font-size="33" style="fill:rgb(84, 197, 104);--wm-d:3668ms">wanna</text>
+<text transform="translate(495,552) rotate(-90)" font-size="32" style="fill:rgb(70, 48, 126);--wm-d:3640ms">watch</text>
+<text transform="translate(78,218)" font-size="32" style="fill:rgb(32, 146, 140);--wm-d:3626ms">much</text>
+<text transform="translate(148,683)" font-size="32" style="fill:rgb(223, 227, 24);--wm-d:3570ms">first</text>
+<text transform="translate(91,258)" font-size="32" style="fill:rgb(70, 10, 93);--wm-d:3528ms">damn</text>
+<text transform="translate(111,539)" font-size="32" style="fill:rgb(149, 216, 64);--wm-d:3542ms">doesnt</text>
+<text transform="translate(684,92)" font-size="32" style="fill:rgb(68, 1, 84);--wm-d:3598ms">might</text>
+<text transform="translate(32,193) rotate(-90)" font-size="32" style="fill:rgb(157, 217, 59);--wm-d:3654ms">work</text>
+<text transform="translate(29,559) rotate(-90)" font-size="32" style="fill:rgb(60, 79, 138);--wm-d:3584ms">league</text>
+<text transform="translate(29,345) rotate(-90)" font-size="32" style="fill:rgb(70, 8, 92);--wm-d:3612ms">mohammed</text>
+<text transform="translate(649,609)" font-size="32" style="fill:rgb(162, 218, 55);--wm-d:3556ms">feel</text>
+<text transform="translate(913,38)" font-size="31" style="fill:rgb(31, 148, 140);--wm-d:3458ms">lets</text>
+<text transform="translate(846,69)" font-size="31" style="fill:rgb(48, 105, 142);--wm-d:3472ms">movie</text>
+<text transform="translate(925,327) rotate(-90)" font-size="31" style="fill:rgb(66, 65, 134);--wm-d:3486ms">nomster</text>
+<text transform="translate(770,295) rotate(-90)" font-size="31" style="fill:rgb(64, 189, 114);--wm-d:3514ms">thought</text>
+<text transform="translate(567,588) rotate(-90)" font-size="31" style="fill:rgb(72, 40, 120);--wm-d:3444ms">getting</text>
+<text transform="translate(494,26)" font-size="31" style="fill:rgb(32, 147, 140);--wm-d:3500ms">tell</text>
+<text transform="translate(831,681)" font-size="29" style="fill:rgb(72, 27, 109);--wm-d:3402ms">saying</text>
+<text transform="translate(75,625)" font-size="29" style="fill:rgb(72, 40, 120);--wm-d:3388ms">last</text>
+<text transform="translate(25,683)" font-size="29" style="fill:rgb(244, 230, 30);--wm-d:3416ms">theres</text>
+<text transform="translate(636,28)" font-size="29" style="fill:rgb(71, 47, 125);--wm-d:3430ms">wait</text>
+<text transform="translate(91,185)" font-size="29" style="fill:rgb(68, 191, 112);--wm-d:3374ms">give</text>
+<text transform="translate(171,27)" font-size="29" style="fill:rgb(36, 170, 131);--wm-d:3360ms">fuck</text>
+<text transform="translate(362,22)" font-size="23" style="fill:rgb(76, 194, 108);--wm-d:3262ms">playing</text>
+<text transform="translate(238,379) rotate(-90)" font-size="23" style="fill:rgb(49, 102, 142);--wm-d:3052ms">actually</text>
+<text transform="translate(696,118)" font-size="23" style="fill:rgb(44, 113, 142);--wm-d:3206ms">home</text>
+<text transform="translate(935,137)" font-size="23" style="fill:rgb(40, 174, 128);--wm-d:3094ms">best</text>
+<text transform="translate(652,725) rotate(-90)" font-size="23" style="fill:rgb(58, 83, 139);--wm-d:3178ms">hasher</text>
+<text transform="translate(77,594)" font-size="23" style="fill:rgb(53, 94, 141);--wm-d:3346ms">whats</text>
+<text transform="translate(612,106) rotate(-90)" font-size="23" style="fill:rgb(173, 220, 48);--wm-d:3108ms">brother</text>
+<text transform="translate(690,462)" font-size="23" style="fill:rgb(72, 41, 121);--wm-d:3318ms">waheed</text>
+<text transform="translate(20,669) rotate(-90)" font-size="23" style="fill:rgb(41, 121, 142);--wm-d:3150ms">deadlock</text>
+<text transform="translate(184,653)" font-size="23" style="fill:rgb(88, 199, 101);--wm-d:3066ms">always</text>
+<text transform="translate(97,277)" font-size="23" style="fill:rgb(132, 212, 75);--wm-d:3192ms">hate</text>
+<text transform="translate(809,573)" font-size="23" style="fill:rgb(64, 69, 136);--wm-d:3164ms">hadi</text>
+<text transform="translate(276,539)" font-size="23" style="fill:rgb(31, 149, 139);--wm-d:3220ms">love</text>
+<text transform="translate(140,797)" font-size="23" style="fill:rgb(37, 133, 142);--wm-d:3276ms">someone</text>
+<text transform="translate(180,488)" font-size="23" style="fill:rgb(34, 167, 133);--wm-d:3332ms">well</text>
+<text transform="translate(166,509)" font-size="23" style="fill:rgb(152, 216, 62);--wm-d:3304ms">today</text>
+<text transform="translate(114,235)" font-size="23" style="fill:rgb(66, 190, 113);--wm-d:3234ms">mean</text>
+<text transform="translate(309,717)" font-size="23" style="fill:rgb(248, 230, 33);--wm-d:3290ms">sorry</text>
+<text transform="translate(889,758)" font-size="23" style="fill:rgb(92, 200, 99);--wm-d:3122ms">call</text>
+<text transform="translate(852,619)" font-size="23" style="fill:rgb(246, 230, 32);--wm-d:3136ms">cause</text>
+<text transform="translate(434,125) rotate(-90)" font-size="23" style="fill:rgb(31, 158, 137);--wm-d:3080ms">arsenal</text>
+<text transform="translate(77,446)" font-size="23" style="fill:rgb(34, 139, 141);--wm-d:3248ms">next</text>
+<text transform="translate(654,622)" font-size="15" style="fill:rgb(42, 176, 127);--wm-d:2492ms">something</text>
+<text transform="translate(550,698)" font-size="15" style="fill:rgb(37, 132, 142);--wm-d:2660ms">theyre</text>
+<text transform="translate(216,264)" font-size="15" style="fill:rgb(226, 228, 24);--wm-d:2954ms">wont</text>
+<text transform="translate(443,703)" font-size="15" style="fill:rgb(45, 112, 142);--wm-d:1190ms">free</text>
+<text transform="translate(669,131)" font-size="15" style="fill:rgb(54, 93, 141);--wm-d:2114ms">player</text>
+<text transform="translate(1,401)" font-size="15" style="fill:rgb(32, 147, 140);--wm-d:1302ms">gotta</text>
+<text transform="translate(890,348)" font-size="15" style="fill:rgb(68, 2, 86);--wm-d:2730ms">true</text>
+<text transform="translate(623,407)" font-size="15" style="fill:rgb(69, 55, 129);--wm-d:2198ms">reach</text>
+<text transform="translate(775,54)" font-size="15" style="fill:rgb(31, 154, 138);--wm-d:2590ms">sure</text>
+<text transform="translate(212,629)" font-size="15" style="fill:rgb(72, 31, 112);--wm-d:644ms">anything</text>
+<text transform="translate(292,515)" font-size="15" style="fill:rgb(44, 115, 142);--wm-d:924ms">coming</text>
+<text transform="translate(681,88) rotate(-90)" font-size="15" style="fill:rgb(34, 167, 133);--wm-d:560ms">aint</text>
+<text transform="translate(876,187)" font-size="15" style="fill:rgb(71, 47, 125);--wm-d:1540ms">join</text>
+<text transform="translate(419,684)" font-size="15" style="fill:rgb(197, 224, 33);--wm-d:2254ms">really</text>
+<text transform="translate(762,724)" font-size="15" style="fill:rgb(165, 219, 54);--wm-d:1792ms">made</text>
+<text transform="translate(471,449)" font-size="15" style="fill:rgb(61, 78, 138);--wm-d:2240ms">real</text>
+<text transform="translate(855,290)" font-size="15" style="fill:rgb(94, 201, 98);--wm-d:3024ms">yall</text>
+<text transform="translate(238,295)" font-size="15" style="fill:rgb(39, 127, 142);--wm-d:994ms">done</text>
+<text transform="translate(818,438)" font-size="15" style="fill:rgb(45, 113, 142);--wm-d:1498ms">insane</text>
+<text transform="translate(278,732) rotate(-90)" font-size="15" style="fill:rgb(72, 41, 121);--wm-d:2968ms">word</text>
+<text transform="translate(947,417)" font-size="15" style="fill:rgb(46, 109, 142);--wm-d:1134ms">find</text>
+<text transform="translate(833,663) rotate(-90)" font-size="15" style="fill:rgb(226, 228, 24);--wm-d:1582ms">kids</text>
+<text transform="translate(39,118)" font-size="15" style="fill:rgb(51, 99, 141);--wm-d:756ms">bilal</text>
+<text transform="translate(937,46)" font-size="15" style="fill:rgb(72, 38, 119);--wm-d:938ms">crazy</text>
+<text transform="translate(566,790)" font-size="15" style="fill:rgb(46, 110, 142);--wm-d:2142ms">point</text>
+<text transform="translate(565,771)" font-size="15" style="fill:rgb(68, 1, 84);--wm-d:1960ms">night</text>
+<text transform="translate(201,554)" font-size="15" style="fill:rgb(30, 155, 138);--wm-d:728ms">beat</text>
+<text transform="translate(292,88)" font-size="15" style="fill:rgb(41, 175, 127);--wm-d:1834ms">maybe</text>
+<text transform="translate(890,568)" font-size="15" style="fill:rgb(71, 47, 125);--wm-d:1204ms">friend</text>
+<text transform="translate(95,474)" font-size="15" style="fill:rgb(184, 222, 41);--wm-d:2436ms">show</text>
+<text transform="translate(611,752)" font-size="15" style="fill:rgb(54, 92, 141);--wm-d:588ms">already</text>
+<text transform="translate(826,757)" font-size="15" style="fill:rgb(68, 1, 84);--wm-d:1680ms">life</text>
+<text transform="translate(92,726)" font-size="15" style="fill:rgb(72, 41, 121);--wm-d:3010ms">wrong</text>
+<text transform="translate(747,347)" font-size="15" style="fill:rgb(66, 65, 134);--wm-d:1372ms">hasan</text>
+<text transform="translate(156,340)" font-size="15" style="fill:rgb(42, 120, 142);--wm-d:1022ms">easa</text>
+<text transform="translate(939,275)" font-size="15" style="fill:rgb(31, 150, 139);--wm-d:2982ms">world</text>
+<text transform="translate(840,204) rotate(-90)" font-size="15" style="fill:rgb(72, 29, 111);--wm-d:630ms">anyone</text>
+<text transform="translate(592,338)" font-size="15" style="fill:rgb(54, 93, 141);--wm-d:1064ms">every</text>
+<text transform="translate(330,261) rotate(-90)" font-size="15" style="fill:rgb(70, 7, 90);--wm-d:882ms">chelsea</text>
+<text transform="translate(831,109) rotate(-90)" font-size="15" style="fill:rgb(42, 120, 142);--wm-d:2912ms">whos</text>
+<text transform="translate(214,60)" font-size="15" style="fill:rgb(42, 118, 142);--wm-d:1750ms">long</text>
+<text transform="translate(715,308)" font-size="15" style="fill:rgb(56, 88, 140);--wm-d:2842ms">watching</text>
+<text transform="translate(891,535)" font-size="15" style="fill:rgb(35, 138, 141);--wm-d:2632ms">talking</text>
+<text transform="translate(404,256) rotate(-90)" font-size="15" style="fill:rgb(51, 98, 141);--wm-d:1414ms">hell</text>
+<text transform="translate(802,421)" font-size="15" style="fill:rgb(66, 63, 133);--wm-d:2534ms">start</text>
+<text transform="translate(60,798)" font-size="15" style="fill:rgb(78, 195, 107);--wm-d:1484ms">indian</text>
+<text transform="translate(294,28)" font-size="15" style="fill:rgb(66, 190, 113);--wm-d:2618ms">talk</text>
+<text transform="translate(702,440)" font-size="15" style="fill:rgb(51, 99, 141);--wm-d:742ms">believe</text>
+<text transform="translate(301,766)" font-size="15" style="fill:rgb(70, 11, 94);--wm-d:770ms">black</text>
+<text transform="translate(818,479)" font-size="15" style="fill:rgb(32, 147, 140);--wm-d:1008ms">dude</text>
+<text transform="translate(558,718)" font-size="15" style="fill:rgb(70, 50, 126);--wm-d:1092ms">fags</text>
+<text transform="translate(640,234) rotate(-90)" font-size="15" style="fill:rgb(152, 216, 62);--wm-d:1848ms">mins</text>
+<text transform="translate(566,245) rotate(-90)" font-size="15" style="fill:rgb(216, 226, 25);--wm-d:1708ms">literally</text>
+<text transform="translate(792,404)" font-size="15" style="fill:rgb(142, 214, 69);--wm-d:1106ms">faizan</text>
+<text transform="translate(637,294) rotate(-90)" font-size="15" style="fill:rgb(59, 82, 139);--wm-d:2478ms">soccer</text>
+<text transform="translate(822,704)" font-size="15" style="fill:rgb(68, 191, 112);--wm-d:2562ms">stop</text>
+<text transform="translate(347,390)" font-size="15" style="fill:rgb(42, 120, 142);--wm-d:1232ms">futbol</text>
+<text transform="translate(300,679)" font-size="15" style="fill:rgb(39, 128, 142);--wm-d:2394ms">send</text>
+<text transform="translate(238,307)" font-size="15" style="fill:rgb(122, 209, 81);--wm-d:1736ms">lmao</text>
+<text transform="translate(883,376)" font-size="15" style="fill:rgb(72, 26, 108);--wm-d:2338ms">sameed</text>
+<text transform="translate(653,445) rotate(-90)" font-size="15" style="fill:rgb(33, 166, 133);--wm-d:1918ms">name</text>
+<text transform="translate(925,14)" font-size="15" style="fill:rgb(71, 47, 125);--wm-d:1652ms">leave</text>
+<text transform="translate(669,393) rotate(-90)" font-size="15" style="fill:rgb(34, 140, 141);--wm-d:1568ms">keep</text>
+<text transform="translate(677,151)" font-size="15" style="fill:rgb(178, 221, 45);--wm-d:1050ms">enough</text>
+<text transform="translate(821,451)" font-size="15" style="fill:rgb(197, 224, 33);--wm-d:812ms">buddy</text>
+<text transform="translate(184,426)" font-size="15" style="fill:rgb(52, 182, 121);--wm-d:658ms">around</text>
+<text transform="translate(41,556) rotate(-90)" font-size="15" style="fill:rgb(55, 184, 120);--wm-d:1456ms">hour</text>
+<text transform="translate(693,693)" font-size="15" style="fill:rgb(42, 118, 142);--wm-d:2870ms">went</text>
+<text transform="translate(195,567)" font-size="15" style="fill:rgb(216, 226, 25);--wm-d:574ms">akbar</text>
+<text transform="translate(298,60)" font-size="15" style="fill:rgb(34, 168, 132);--wm-d:1442ms">hope</text>
+<text transform="translate(477,94)" font-size="15" style="fill:rgb(66, 190, 113);--wm-d:2086ms">place</text>
+<text transform="translate(551,675)" font-size="15" style="fill:rgb(72, 22, 104);--wm-d:2156ms">pretty</text>
+<text transform="translate(495,641)" font-size="15" style="fill:rgb(184, 222, 41);--wm-d:2604ms">talha</text>
+<text transform="translate(413,390)" font-size="15" style="fill:rgb(226, 228, 24);--wm-d:2282ms">remember</text>
+<text transform="translate(197,584)" font-size="15" style="fill:rgb(70, 48, 126);--wm-d:2184ms">rayhan</text>
+<text transform="translate(390,754) rotate(-90)" font-size="15" style="fill:rgb(31, 154, 138);--wm-d:1218ms">fucking</text>
+<text transform="translate(825,490)" font-size="15" style="fill:rgb(41, 123, 142);--wm-d:1974ms">noman</text>
+<text transform="translate(790,586)" font-size="15" style="fill:rgb(38, 130, 142);--wm-d:1176ms">fortnite</text>
+<text transform="translate(941,306)" font-size="15" style="fill:rgb(71, 19, 101);--wm-d:2072ms">pickle</text>
+<text transform="translate(488,750)" font-size="15" style="fill:rgb(49, 103, 142);--wm-d:1526ms">isnt</text>
+<text transform="translate(892,709)" font-size="15" style="fill:rgb(139, 214, 70);--wm-d:1666ms">left</text>
+<text transform="translate(368,201)" font-size="15" style="fill:rgb(33, 143, 141);--wm-d:2002ms">okay</text>
+<text transform="translate(86,388)" font-size="15" style="fill:rgb(160, 218, 57);--wm-d:602ms">another</text>
+<text transform="translate(384,112) rotate(-90)" font-size="15" style="fill:rgb(67, 61, 132);--wm-d:1988ms">nothing</text>
+<text transform="translate(690,673)" font-size="15" style="fill:rgb(80, 196, 106);--wm-d:798ms">bruh</text>
+<text transform="translate(4,431)" font-size="15" style="fill:rgb(37, 131, 142);--wm-d:1358ms">hard</text>
+<text transform="translate(962,208)" font-size="15" style="fill:rgb(57, 85, 140);--wm-d:2506ms">soon</text>
+<text transform="translate(275,104) rotate(-90)" font-size="15" style="fill:rgb(30, 157, 137);--wm-d:714ms">ball</text>
+<text transform="translate(96,289)" font-size="15" style="fill:rgb(47, 108, 142);--wm-d:2128ms">please</text>
+<text transform="translate(248,322)" font-size="15" style="fill:rgb(67, 61, 132);--wm-d:2828ms">wasnt</text>
+<text transform="translate(393,571)" font-size="15" style="fill:rgb(72, 20, 103);--wm-d:1820ms">many</text>
+<text transform="translate(352,590)" font-size="15" style="fill:rgb(52, 96, 141);--wm-d:2366ms">second</text>
+<text transform="translate(366,795)" font-size="15" style="fill:rgb(67, 61, 132);--wm-d:1932ms">nice</text>
+<text transform="translate(811,549)" font-size="15" style="fill:rgb(44, 114, 142);--wm-d:2100ms">played</text>
+<text transform="translate(52,340)" font-size="15" style="fill:rgb(86, 198, 103);--wm-d:2856ms">week</text>
+<text transform="translate(132,51)" font-size="15" style="fill:rgb(34, 140, 141);--wm-d:910ms">club</text>
+<text transform="translate(198,403)" font-size="15" style="fill:rgb(36, 135, 142);--wm-d:1470ms">house</text>
+<text transform="translate(214,241)" font-size="15" style="fill:rgb(72, 35, 116);--wm-d:1344ms">happy</text>
+<text transform="translate(686,717)" font-size="15" style="fill:rgb(173, 220, 48);--wm-d:2380ms">seen</text>
+<text transform="translate(293,13)" font-size="15" style="fill:rgb(31, 161, 135);--wm-d:868ms">check</text>
+<text transform="translate(880,653)" font-size="15" style="fill:rgb(72, 22, 104);--wm-d:2674ms">though</text>
+<text transform="translate(552,314) rotate(-90)" font-size="15" style="fill:rgb(231, 228, 25);--wm-d:2744ms">trying</text>
+<text transform="translate(78,460)" font-size="15" style="fill:rgb(70, 11, 94);--wm-d:2926ms">without</text>
+<text transform="translate(190,664)" font-size="15" style="fill:rgb(147, 215, 65);--wm-d:686ms">aura</text>
+<text transform="translate(547,256)" font-size="15" style="fill:rgb(64, 70, 136);--wm-d:1890ms">month</text>
+<text transform="translate(928,337)" font-size="15" style="fill:rgb(139, 214, 70);--wm-d:2352ms">season</text>
+<text transform="translate(885,159)" font-size="15" style="fill:rgb(223, 227, 24);--wm-d:1778ms">lost</text>
+<text transform="translate(875,508)" font-size="15" style="fill:rgb(112, 207, 87);--wm-d:2996ms">wouldnt</text>
+<text transform="translate(428,663)" font-size="15" style="fill:rgb(52, 96, 141);--wm-d:700ms">away</text>
+<text transform="translate(424,715)" font-size="15" style="fill:rgb(48, 105, 142);--wm-d:2324ms">sahil</text>
+<text transform="translate(47,61)" font-size="15" style="fill:rgb(57, 86, 140);--wm-d:2268ms">reason</text>
+<text transform="translate(265,361)" font-size="15" style="fill:rgb(38, 130, 142);--wm-d:1260ms">girl</text>
+<text transform="translate(576,165)" font-size="15" style="fill:rgb(86, 198, 103);--wm-d:2646ms">thank</text>
+<text transform="translate(459,798)" font-size="15" style="fill:rgb(70, 192, 111);--wm-d:2702ms">tomorrow</text>
+<text transform="translate(260,125)" font-size="15" style="fill:rgb(70, 192, 111);--wm-d:896ms">chill</text>
+<text transform="translate(485,55)" font-size="15" style="fill:rgb(41, 122, 142);--wm-d:2030ms">part</text>
+<text transform="translate(497,207) rotate(-90)" font-size="15" style="fill:rgb(68, 58, 131);--wm-d:1764ms">looking</text>
+<text transform="translate(774,656) rotate(-90)" font-size="15" style="fill:rgb(68, 191, 112);--wm-d:966ms">days</text>
+<text transform="translate(383,261) rotate(-90)" font-size="15" style="fill:rgb(32, 147, 140);--wm-d:1806ms">making</text>
+<text transform="translate(901,597)" font-size="15" style="fill:rgb(208, 225, 28);--wm-d:2576ms">stuff</text>
+<text transform="translate(496,322) rotate(-90)" font-size="15" style="fill:rgb(63, 188, 115);--wm-d:1078ms">everything</text>
+<text transform="translate(418,328)" font-size="15" style="fill:rgb(61, 188, 116);--wm-d:952ms">dawg</text>
+<text transform="translate(389,551)" font-size="15" style="fill:rgb(49, 181, 123);--wm-d:2786ms">used</text>
+<text transform="translate(692,296) rotate(-90)" font-size="15" style="fill:rgb(176, 221, 47);--wm-d:1330ms">happened</text>
+<text transform="translate(892,274) rotate(-90)" font-size="15" style="fill:rgb(72, 23, 105);--wm-d:2170ms">probably</text>
+<text transform="translate(774,796)" font-size="15" style="fill:rgb(61, 188, 116);--wm-d:2800ms">valorant</text>
+<text transform="translate(492,373)" font-size="15" style="fill:rgb(84, 197, 104);--wm-d:2212ms">read</text>
+<text transform="translate(767,711) rotate(-90)" font-size="15" style="fill:rgb(47, 180, 124);--wm-d:1316ms">guess</text>
+<text transform="translate(625,639)" font-size="15" style="fill:rgb(33, 145, 140);--wm-d:2898ms">whole</text>
+<text transform="translate(106,160)" font-size="15" style="fill:rgb(71, 44, 122);--wm-d:1722ms">live</text>
+<text transform="translate(545,445)" font-size="15" style="fill:rgb(76, 194, 108);--wm-d:1148ms">fine</text>
+<text transform="translate(477,38)" font-size="15" style="fill:rgb(90, 200, 100);--wm-d:546ms">agree</text>
+<text transform="translate(250,793) rotate(-90)" font-size="15" style="fill:rgb(40, 125, 142);--wm-d:1246ms">gets</text>
+<text transform="translate(925,429)" font-size="15" style="fill:rgb(71, 47, 125);--wm-d:2688ms">told</text>
+<text transform="translate(735,158)" font-size="15" style="fill:rgb(72, 22, 104);--wm-d:784ms">bring</text>
+<text transform="translate(765,606)" font-size="15" style="fill:rgb(42, 118, 142);--wm-d:2422ms">shot</text>
+<text transform="translate(717,759)" font-size="15" style="fill:rgb(56, 88, 140);--wm-d:2814ms">wanted</text>
+<text transform="translate(12,385)" font-size="15" style="fill:rgb(56, 185, 119);--wm-d:1610ms">kinda</text>
+<text transform="translate(507,511) rotate(-90)" font-size="15" style="fill:rgb(178, 221, 45);--wm-d:2296ms">rocket</text>
+<text transform="translate(519,736) rotate(-90)" font-size="15" style="fill:rgb(30, 156, 137);--wm-d:2772ms">understand</text>
+<text transform="translate(238,20)" font-size="15" style="fill:rgb(236, 229, 27);--wm-d:1624ms">king</text>
+<text transform="translate(747,257) rotate(-90)" font-size="15" style="fill:rgb(162, 218, 55);--wm-d:1386ms">havent</text>
+<text transform="translate(315,248) rotate(-90)" font-size="15" style="fill:rgb(35, 138, 141);--wm-d:980ms">discord</text>
+<text transform="translate(483,74)" font-size="15" style="fill:rgb(216, 226, 25);--wm-d:1638ms">knew</text>
+<text transform="translate(465,566)" font-size="15" style="fill:rgb(70, 50, 126);--wm-d:2758ms">tryna</text>
+<text transform="translate(953,792)" font-size="15" style="fill:rgb(129, 211, 77);--wm-d:1946ms">nigga</text>
+<text transform="translate(569,116) rotate(-90)" font-size="15" style="fill:rgb(48, 106, 142);--wm-d:2226ms">ready</text>
+<text transform="translate(959,614) rotate(-90)" font-size="15" style="fill:rgb(72, 31, 112);--wm-d:1512ms">instead</text>
+<text transform="translate(600,396)" font-size="15" style="fill:rgb(71, 14, 97);--wm-d:2408ms">server</text>
+<text transform="translate(685,705)" font-size="15" style="fill:rgb(39, 126, 142);--wm-d:2884ms">white</text>
+<text transform="translate(496,387)" font-size="15" style="fill:rgb(31, 161, 136);--wm-d:854ms">chat</text>
+<text transform="translate(931,768)" font-size="15" style="fill:rgb(70, 51, 127);--wm-d:1904ms">move</text>
+<text transform="translate(750,62)" font-size="15" style="fill:rgb(168, 219, 52);--wm-d:1862ms">money</text>
+<text transform="translate(629,738)" font-size="15" style="fill:rgb(66, 63, 133);--wm-d:1428ms">hero</text>
+<text transform="translate(836,279) rotate(-90)" font-size="15" style="fill:rgb(30, 155, 138);--wm-d:672ms">asshole</text>
+<text transform="translate(373,690) rotate(-90)" font-size="15" style="fill:rgb(152, 216, 62);--wm-d:2310ms">sadly</text>
+<text transform="translate(196,473) rotate(-90)" font-size="15" style="fill:rgb(49, 181, 123);--wm-d:1400ms">heard</text>
+<text transform="translate(489,339)" font-size="15" style="fill:rgb(200, 224, 32);--wm-d:2520ms">sound</text>
+<text transform="translate(670,588)" font-size="15" style="fill:rgb(80, 196, 106);--wm-d:2716ms">took</text>
+<text transform="translate(290,622)" font-size="15" style="fill:rgb(53, 95, 141);--wm-d:1554ms">joke</text>
+<text transform="translate(639,339)" font-size="15" style="fill:rgb(137, 213, 72);--wm-d:1162ms">food</text>
+<text transform="translate(398,114) rotate(-90)" font-size="15" style="fill:rgb(88, 199, 101);--wm-d:1036ms">either</text>
+<text transform="translate(20,59) rotate(-90)" font-size="15" style="fill:rgb(119, 209, 83);--wm-d:840ms">change</text>
+<text transform="translate(576,540) rotate(-90)" font-size="15" style="fill:rgb(55, 90, 140);--wm-d:2044ms">person</text>
+<text transform="translate(626,447) rotate(-90)" font-size="15" style="fill:rgb(90, 200, 100);--wm-d:1274ms">goat</text>
+<text transform="translate(214,94)" font-size="15" style="fill:rgb(119, 209, 83);--wm-d:2464ms">side</text>
+<text transform="translate(623,296) rotate(-90)" font-size="15" style="fill:rgb(50, 101, 142);--wm-d:1288ms">gooner</text>
+<text transform="translate(1,781)" font-size="15" style="fill:rgb(32, 146, 140);--wm-d:3038ms">zaph</text>
+<text transform="translate(551,113) rotate(-90)" font-size="15" style="fill:rgb(62, 73, 137);--wm-d:1876ms">monkey</text>
+<text transform="translate(802,344)" font-size="15" style="fill:rgb(37, 133, 142);--wm-d:2058ms">pick</text>
+<text transform="translate(215,130)" font-size="15" style="fill:rgb(63, 72, 137);--wm-d:1596ms">kill</text>
+<text transform="translate(76,232)" font-size="15" style="fill:rgb(189, 223, 38);--wm-d:2016ms">ones</text>
+<text transform="translate(158,730)" font-size="15" style="fill:rgb(55, 91, 141);--wm-d:2450ms">sick</text>
+<text transform="translate(456,100) rotate(-90)" font-size="15" style="fill:rgb(31, 151, 139);--wm-d:1694ms">listen</text>
+<text transform="translate(390,683) rotate(-90)" font-size="15" style="fill:rgb(32, 164, 134);--wm-d:826ms">called</text>
+<text transform="translate(998,70) rotate(-90)" font-size="15" style="fill:rgb(76, 194, 108);--wm-d:2548ms">started</text>
+<text transform="translate(496,615) rotate(-90)" font-size="15" style="fill:rgb(68, 59, 132);--wm-d:1120ms">fight</text>
+<text transform="translate(105,602)" font-size="15" style="fill:rgb(176, 221, 47);--wm-d:2940ms">women</text>
+<text transform="translate(994,379) rotate(-90)" font-size="15" style="fill:rgb(63, 71, 136);--wm-d:616ms">anymore</text>
+<text transform="translate(139,517)" font-size="11" style="fill:rgb(69, 4, 87);--wm-d:28ms">basically</text>
+<text transform="translate(213,40)" font-size="11" style="fill:rgb(223, 227, 24);--wm-d:140ms">happen</text>
+<text transform="translate(700,500)" font-size="11" style="fill:rgb(56, 88, 140);--wm-d:70ms">different</text>
+<text transform="translate(718,547)" font-size="11" style="fill:rgb(53, 94, 141);--wm-d:476ms">video</text>
+<text transform="translate(83,531)" font-size="11" style="fill:rgb(202, 225, 31);--wm-d:168ms">jews</text>
+<text transform="translate(901,362)" font-size="11" style="fill:rgb(63, 72, 137);--wm-d:336ms">plan</text>
+<text transform="translate(868,422)" font-size="11" style="fill:rgb(70, 7, 90);--wm-d:350ms">question</text>
+<text transform="translate(302,772)" font-size="11" style="fill:rgb(223, 227, 24);--wm-d:42ms">care</text>
+<text transform="translate(248,31)" font-size="11" style="fill:rgb(65, 66, 135);--wm-d:294ms">omar</text>
+<text transform="translate(97,112)" font-size="11" style="fill:rgb(86, 198, 103);--wm-d:196ms">little</text>
+<text transform="translate(969,173)" font-size="11" style="fill:rgb(251, 231, 35);--wm-d:112ms">gave</text>
+<text transform="translate(567,328) rotate(-90)" font-size="11" style="fill:rgb(71, 44, 122);--wm-d:462ms">tonight</text>
+<text transform="translate(231,194)" font-size="11" style="fill:rgb(90, 200, 100);--wm-d:266ms">must</text>
+<text transform="translate(415,586)" font-size="11" style="fill:rgb(44, 177, 126);--wm-d:126ms">great</text>
+<text transform="translate(397,507) rotate(-90)" font-size="11" style="fill:rgb(96, 202, 96);--wm-d:434ms">spot</text>
+<text transform="translate(145,112)" font-size="11" style="fill:rgb(170, 220, 50);--wm-d:84ms">epic</text>
+<text transform="translate(888,170)" font-size="11" style="fill:rgb(72, 20, 103);--wm-d:448ms">story</text>
+<text transform="translate(281,549)" font-size="11" style="fill:rgb(119, 209, 83);--wm-d:224ms">masif</text>
+<text transform="translate(297,74)" font-size="11" style="fill:rgb(47, 108, 142);--wm-d:504ms">weekend</text>
+<text transform="translate(493,349)" font-size="11" style="fill:rgb(124, 210, 80);--wm-d:154ms">help</text>
+<text transform="translate(263,131)" font-size="11" style="fill:rgb(69, 55, 129);--wm-d:378ms">says</text>
+<text transform="translate(498,587)" font-size="11" style="fill:rgb(32, 147, 140);--wm-d:56ms">cooked</text>
+<text transform="translate(338,158)" font-size="11" style="fill:rgb(78, 195, 107);--wm-d:392ms">school</text>
+<text transform="translate(884,717)" font-size="11" style="fill:rgb(119, 209, 83);--wm-d:322ms">ottawa</text>
+<text transform="translate(9,110)" font-size="11" style="fill:rgb(192, 223, 37);--wm-d:308ms">open</text>
+<text transform="translate(403,795)" font-size="11" style="fill:rgb(32, 164, 134);--wm-d:364ms">raptor</text>
+<text transform="translate(684,681)" font-size="11" style="fill:rgb(31, 150, 139);--wm-d:0ms">allah</text>
+<text transform="translate(352,699)" font-size="11" style="fill:rgb(124, 210, 80);--wm-d:420ms">song</text>
+<text transform="translate(763,500)" font-size="11" style="fill:rgb(137, 213, 72);--wm-d:280ms">narrative</text>
+<text transform="translate(947,498)" font-size="11" style="fill:rgb(46, 111, 142);--wm-d:252ms">muslim</text>
+<text transform="translate(233,472)" font-size="11" style="fill:rgb(165, 219, 54);--wm-d:406ms">sleep</text>
+<text transform="translate(568,276)" font-size="11" style="fill:rgb(157, 217, 59);--wm-d:182ms">kind</text>
+<text transform="translate(921,472) rotate(-90)" font-size="11" style="fill:rgb(66, 190, 113);--wm-d:518ms">working</text>
+<text transform="translate(577,286)" font-size="11" style="fill:rgb(103, 204, 92);--wm-d:14ms">arent</text>
+<text transform="translate(784,334)" font-size="11" style="fill:rgb(67, 62, 133);--wm-d:210ms">lose</text>
+<text transform="translate(906,125)" font-size="11" style="fill:rgb(142, 214, 69);--wm-d:238ms">mind</text>
+<text transform="translate(830,691)" font-size="11" style="fill:rgb(213, 226, 26);--wm-d:98ms">full</text>
+<text transform="translate(10,508) rotate(-90)" font-size="11" style="fill:rgb(194, 223, 35);--wm-d:490ms">watched</text>
+<text transform="translate(678,306)" font-size="11" style="fill:rgb(67, 61, 132);--wm-d:532ms">youll</text>
+</svg>

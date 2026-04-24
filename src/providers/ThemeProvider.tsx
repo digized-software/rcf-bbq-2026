@@ -1,13 +1,11 @@
 import { useContext, useState } from "react";
 import { createContext } from "react";
 
-type Theme =
+export type Theme =
   | "overwatch"
-  | "valorant"
   | "deadlock"
   | "basic"
   | "rocket-league"
-  | "halo"
   | "fc-2025";
 
 const ThemeContext = createContext<{
@@ -21,8 +19,14 @@ export const useTheme = () => {
 };
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  const [theme, setTheme] = useState<Theme>("basic");
-  console.log(theme);
+  const [theme, _setTheme] = useState<Theme>(
+    (localStorage.getItem("rcf-bbq-2026-theme") as Theme) || "basic",
+  );
+  const setTheme = (theme: Theme) => {
+    _setTheme(theme);
+    localStorage.setItem("rcf-bbq-2026-theme", theme);
+  };
+
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}
